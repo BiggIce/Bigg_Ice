@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigg-Ice Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        #search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #search-form {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #search-input {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #search-button:hover {
+            background-color: #2e5ff7;
+        }
+
+        #results-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #result-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        #result-images img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        // JavaScript pour la recherche (le même que précédemment)
+    </script>
+</head>
+<body>
+    <div id="search-container">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Rechercher sur Bigg-Ice...">
+            <button type="submit" id="search-button">Recherche Bigg-Ice</button>
+        </form>
+    </div>
+
+    <div id="results-container">
+        <h2>Résultats de la recherche pour "<span id="search-term"></span>"</h2>
+        <div id="result-images">
+            <!-- Ajoutez ici les balises <img> avec les URL des images -->
+            <img src="https://mcdn.wallpapersafari.com/small/16/52/LuvTa2.jpg" alt="Image 1">
+            <img src="https://mcdn.wallpapersafari.com/small/54/24/qNJag9.jpg" alt="Image 2">
+            <img src="https://mcdn.wallpapersafari.com/small/60/84/vnuejY.jpg" alt="Image 3">
+        </div>
+    </div>
+</body>
+</html>
